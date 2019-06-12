@@ -7,6 +7,7 @@ const res = mergeRouterAndData({
         {
             "id": "./simple/data/a",
             "id2": "./simple/data/b",
+            "id3": "./simple/data/b",
             "__data": "./simple/data/c.json"
         }
     ]

@@ -1,0 +1,18 @@
+{
+    "output": "outputPath",
+    "globalData": "dataPath",
+    "templates": {
+        "hello": ["templatePath", ["stylePath", "stylePath"]]
+    },
+    "routers": {
+        "/": ["templateName", {"__data": "dataPath"}],
+        "/[id]/[id2]": [
+            "templateName",
+            {
+                "id": "dataDirPath",
+                "id2": "dataDirPath",
+                "__data": "dataPath"
+            }
+        ]
+    }
+}

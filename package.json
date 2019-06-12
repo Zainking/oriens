@@ -1,0 +1,20 @@
+{
+  "name": "oriens",
+  "version": "0.0.0",
+  "description": "Use pug and stylus create your static website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo test"
+  },
+  "author": "Zain",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "@types/pug": "^2.0.4",
+    "@types/stylus": "^0.48.31"
+  }
+}

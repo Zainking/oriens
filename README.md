@@ -1,6 +1,8 @@
 # oriens
 [![Build Status](https://travis-ci.org/Zainking/oriens.svg?branch=master)](https://travis-ci.org/Zainking/oriens)
+[![codecov](https://codecov.io/gh/Zainking/oriens/branch/master/graph/badge.svg)](https://codecov.io/gh/Zainking/oriens)
 [![GitHub license](https://img.shields.io/github/license/Zainking/oriens.svg)](https://github.com/Zainking/oriens/blob/master/LICENSE)
+
 
 Use pug and stylus create your static website.
 

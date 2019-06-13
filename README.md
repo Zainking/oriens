@@ -5,10 +5,17 @@ Use pug and stylus create your static website.
 ```shell
 npm install oriens -g
 ```
+
 ## Basic Usage
+Create a oriens project:
+```shell
+oriens create [projectname]
+cd ./[projectname]
+```
+
 In your oriens project root directory run:
 ```shell
-oriens
+oriens build
 ```
 
 ## project example

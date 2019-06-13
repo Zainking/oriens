@@ -1,6 +1,6 @@
 {
   "name": "oriens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use pug and stylus create your static website.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "url": "git@github.com:Zainking/oriens.git"
   },
   "dependencies": {
+    "fs-extra": "^8.0.1",
     "pug": "^2.0.3",
     "stylus": "^0.54.5"
   },

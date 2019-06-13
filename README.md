@@ -7,16 +7,17 @@ npm install oriens -g
 ```
 
 ## Basic Usage
-Create a oriens project:
+Create an oriens project:
 ```shell
 oriens create [projectname]
-cd [projectname]
 ```
 
-In your oriens project root directory run:
+Build oriens project:
 ```shell
+# In project directory.
+# If you create it just now, you may need run `cd [projectname]`
 oriens build
 ```
 
-## project example
-see [simple/](https://github.com/Zainking/oriens/tree/master/simple).
+## Project example
+See [simple/](https://github.com/Zainking/oriens/tree/master/simple)

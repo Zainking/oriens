@@ -1,17 +1,33 @@
 {
-    "output": "outputPath",
-    "globalData": "dataPath",
+    "output": "./dist",
+    "globalData": "./data/global.json",
     "templates": {
-        "hello": ["templatePath", ["stylePath", "stylePath"]]
+        "a": ["./templates/a/a.pug", ["./templates/a/a1.styl", "./templates/a/a2.styl"]],
+        "b": ["./templates/b/b.pug", ["./templates/b/b.styl"]],
+        "c": ["./templates/c.pug"]
     },
     "routers": {
-        "/": ["templateName", {"__data": "dataPath"}],
-        "/[id]/[id2]": [
-            "templateName",
+        "/": ["a", {"__data": "./data/c.json"}],
+        "/a/[id]": [
+            "b",
             {
-                "id": "dataDirPath",
-                "id2": "dataDirPath",
-                "__data": "dataPath"
+                "id": "./data/a",
+                "__data": "./data/d.json"
+            }
+        ],
+        "/a/[id]/[id2]": [
+            "c",
+            {
+                "id": "./data/a",
+                "id2": "./data/b",
+                "__data": "./data/d.json"
+            }
+        ],
+        "/a/b": [
+            "c",
+            {
+                "extra": "./data/a",
+                "__data": "./data/d.json"
             }
         ]
     }

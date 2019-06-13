@@ -1,6 +1,6 @@
 {
   "name": "oriens",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Use pug and stylus create your static website.",
   "main": "index.js",
   "scripts": {

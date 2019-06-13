@@ -10,7 +10,7 @@ npm install oriens -g
 Create a oriens project:
 ```shell
 oriens create [projectname]
-cd ./[projectname]
+cd [projectname]
 ```
 
 In your oriens project root directory run:

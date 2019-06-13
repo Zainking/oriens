@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo test"
+    "test": "node ./test/testRouterFactory.js & node ./test/testTemplateFactory.js"
   },
   "author": "Zain",
   "license": "ISC",

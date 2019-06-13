@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node ./test/testRouterFactory.js & node ./test/testTemplateFactory.js"
+    "test": "jest"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "author": "Zain",
   "license": "ISC",
@@ -30,6 +34,7 @@
   },
   "devDependencies": {
     "@types/pug": "^2.0.4",
-    "@types/stylus": "^0.48.31"
+    "@types/stylus": "^0.48.31",
+    "jest": "^24.8.0"
   }
 }

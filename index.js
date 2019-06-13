@@ -35,6 +35,6 @@ Object.keys(finalRouters).forEach(router => {
     const templateName = finalRouters[router][0]
     const outputPath = `${config.output}/${router}`
     const finalData = { __globalData: config.globalData, ...finalRouters[router][1] }
-    console.log(outputPath)
+    console.log(`输出 ${outputPath}/index.html`)
     templates[templateName].complie(outputPath, finalData)
 })

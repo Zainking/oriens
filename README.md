@@ -1,4 +1,5 @@
 # oriens
+[![Build Status](https://travis-ci.org/Zainking/oriens.svg?branch=master)](https://travis-ci.org/Zainking/oriens)
 Use pug and stylus create your static website.
 
 ## Installation

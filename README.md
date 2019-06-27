@@ -1,5 +1,5 @@
 
-# ![oriens](https://oss190615.oss-cn-hangzhou.aliyuncs.com/oriens_logo.png)
+# ![oriens](https://static.wangziyi.site/oriens_logo.png)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Zainking/oriens.svg?color=green)
 [![Build Status](https://travis-ci.org/Zainking/oriens.svg?branch=master)](https://travis-ci.org/Zainking/oriens)
 [![codecov](https://codecov.io/gh/Zainking/oriens/branch/master/graph/badge.svg)](https://codecov.io/gh/Zainking/oriens)

@@ -28,7 +28,7 @@
     "url": "git@github.com:Zainking/oriens.git"
   },
   "dependencies": {
-    "fs-extra": "^8.0.1",
+    "fs-extra": "^9.0.0",
     "pug": "^2.0.3",
     "stylus": "^0.54.5"
   },
